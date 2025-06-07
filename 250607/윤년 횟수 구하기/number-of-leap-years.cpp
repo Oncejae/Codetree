@@ -4,7 +4,7 @@ int main() {
  
     int cnt =0;
     int n;
-    scanf("%d",&n);
+    cin >> n;
     for(int i=1; i<=n; i++){
         if((i%4 ==0) && (i%100!=0)){
             cnt++;
